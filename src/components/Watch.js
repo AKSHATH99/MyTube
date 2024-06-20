@@ -14,10 +14,10 @@ const Watch = (props) => {
   const [videos, setVideos] = useState(null);
     const [channelData, setchannelData] = useState(null);
   const APIdata =useContext(APIcontext);
-  console.log(props.location,"props.location\n", props)
-  const { videoData} = props.location.state;
+  // console.log(props.location,"props.location\n", props)
+  // const { videoData} = props.location.state;
 
-  console.log(videoData);
+  // console.log(videoData);
 
   // const fetchChannelInfo = async () => {
   //   try {
